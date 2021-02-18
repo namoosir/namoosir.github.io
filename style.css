@@ -173,15 +173,19 @@ nav{
 }
 
 .description{
+    margin-top: 50px;
     color: rgb(171, 201, 201);
 }
 
 .button{
-    margin-top: 20px;
+    margin-top: 60px;
     font-weight: 500;
-    font-size: 40px;
+    font-size: 25px;
 }
 
 .about{
-    
+    margin-top: 300px;
+    font-weight: 500;
+    font-size: 40px;
+    align-items: left;
 }
