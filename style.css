@@ -22,7 +22,7 @@ nav{
 .logo{
     color: rgb(187, 182, 182);
     letter-spacing: 2px;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .logo a{
@@ -48,7 +48,7 @@ nav{
     text-decoration: none;
     letter-spacing: 2px;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .nav-links a:hover{
@@ -72,7 +72,7 @@ nav{
     background-color: rgb(118, 183, 199);
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1400px) {
     .nav-links{
         width: 50%;
     }
@@ -156,7 +156,7 @@ nav{
 }
 
 .hi{
-    font-weight: 200;
+    font-weight: 400;
     font-size: 24px;
 }
 
@@ -215,6 +215,7 @@ nav{
     font-weight: 100;
     font-size: 24px;
     color: rgb(171, 201, 201);
+    font-family: 'Cutive Mono', monospace;
 }
 
 .row{
@@ -249,11 +250,31 @@ nav{
 
 .pic2{
     min-width: 150px;
-    max-width: 800;
+    max-width: 800px;
     height: auto;
     margin: auto;
     width: 100%;
     margin-top: 50px;
     display: block;
     border: solid;
+}
+
+.colsmall{
+    flex: 35%;
+}
+
+.colbig{
+    flex: 65%;
+}
+
+svg{
+    padding: 10px;
+    width: 70px;
+    height: 70px;
+    fill:rgb(159, 222, 238);
+  }
+svg:hover {
+    fill:rgb(37, 139, 165);
+    transition: 0.3s ease-in;
+    cursor: pointer;
 }
