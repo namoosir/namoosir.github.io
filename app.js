@@ -42,7 +42,16 @@ function animateMenu() {
     burger.classList.toggle('toggle');
 }
 
+for (var i = 0; i < menuClicks.length; i++) {
+    menuClicks[i].onclick = () => {
+        if (burger.classList.contains('toggle')) {
+                animateMenu();
+        }
+    }
+}
 
 burger.onclick = () => {
-    animateMenu();
+        animateMenu();
 }
+
+
