@@ -227,6 +227,7 @@ nav{
     font-size: 24px;
     color: rgb(171, 201, 201);
     font-family: 'Cutive Mono', monospace;
+    margin: 0;
 }
 
 .row{
